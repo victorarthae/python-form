@@ -9,7 +9,7 @@ def index():
     return render_template('index.html')
 
 @app.route('/form')
-def index():
+def form():
     return render_template('form.html')
 
 if __name__ == '__main__':
